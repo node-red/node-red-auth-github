@@ -31,7 +31,7 @@ you will need to use to configure the authentication plugin.
 Access control for the Node-RED editor is configured in your `settings.js` file
 using the `adminAuth` property.
 
-    adminAuth: require('node-red-auth-twitter')({
+    adminAuth: require('node-red-auth-github')({
         clientID: GITHUB_CLIENT_ID,
         clientSecret: GITHUB_CLIENT_SECRET,
         baseURL: "http://localhost:1880/",
