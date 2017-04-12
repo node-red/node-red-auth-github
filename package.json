@@ -1,0 +1,25 @@
+{
+    "name"         : "node-red-auth-github",
+    "version"      : "0.1.0",
+    "description"  : "A GitHub authentication plugin for Node-RED",
+    "homepage"     : "http://nodered.org",
+    "license"      : "Apache-2.0",
+    "repository"   : {
+        "type":"git",
+        "url":"https://github.com/node-red/node-red-auth-twitter.git"
+    },
+    "main": "./lib/index.js",
+    "author": [
+        {"name": "Nick O'Leary", "email": "nick.oleary@gmail.com"}
+    ],
+    "keywords": [
+        "node-red",
+        "github",
+        "node-red-auth",
+        "authentication",
+        "auth"
+    ],
+    "dependencies": {
+        "passport-github": "1.1.0"
+    }
+}
