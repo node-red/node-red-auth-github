@@ -1,6 +1,6 @@
 {
     "name"         : "node-red-auth-github",
-    "version"      : "0.1.0",
+    "version"      : "0.1.1",
     "description"  : "A GitHub authentication plugin for Node-RED",
     "homepage"     : "http://nodered.org",
     "license"      : "Apache-2.0",
